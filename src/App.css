@@ -1,38 +1,474 @@
-.App {
-  text-align: center;
-}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    background-color: none;
+    display: grid;
+    grid-template-columns: 10em 1fr 10em;
+    grid-template-rows: auto 50em 1fr;
+    grid-template-areas: "head head head"
+                         "main main main"
+                         "foot foot foot";                         
+    }
+     /* ******  *****  ****  ***  **  * H E A D E R * ** *** **** ***** ****** */
+    header{
+    background: #222222;
+    color: white;
+    grid-area: head;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+    .nav {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box; 
+        display: grid;
+        grid-template-rows: auto auto auto;
+      }
+      
+      .uppernav {    
+        box-sizing: border-box;        
+        grid-row: 1;            
+        display: flex;            
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      .uppernav p{
+        height: 100%;
+        width: 100%;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        color: white;
+        background: repeating-linear-gradient(to right,  #f32170, #ffeb07, #2196f3, #ff00eb);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+      }
+      .nav li{
+          display: inline;
+          width: 20%;
+          height: 20%;
+          color: ghostwhite;
+          
+      }
+      /*Carrito*/
+      .Carrito{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      i{
+        font-size: 2em;
+        color: blanchedalmond;
+        padding-right: 40px;
+      }
+    .carrito{
+        grid-area: main;
+        background: orangered;
+    }
+    /*LOGO Y SEARCH*/
+      .middlenav {
+        width: 100%;
+        height: fit-content;
+        box-sizing: border-box; 
+        grid-row: 2;         
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      .logo{
+        width: 65%;
+        height: 20%;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .logo img{
+        width: 35%;
+        height: 15%;
+        padding-right: 180px;
+      }
+      .Input{
+        height: 10%;
+        width: 10%;
+      }
+      /*MENU*/
+      .menu{
+        grid-row: 3;
+        height: 100%;
+        width: auto;
+        padding: 30px;
+        font-size: 15px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .menu ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }    
+      .menu li a{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: blanchedalmond;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .menu li :hover{
+        color: palevioletred;
+      }
+    /* ******  *****  ****  ***  **  * M A I N * ** *** **** ***** ****** */
+    .main{
+        grid-area: main;
+        min-height: 100%;
+        background-color: red;
+    }
+    
+    /*PANTALLA INFORMACIÓN*/
+    .informacion{
+      width: 100%;
+      height: 100%;
+      grid-area: main;
+      background-image:
+      radial-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.9)),
+      url("https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.0-9/80959895_1466069310183527_7932197897221701632_o.jpg?_nc_cat=101&_nc_sid=e3f864&_nc_eui2=AeE2491rtyh1tlRiyYRYHGWNoVfD3IJONXGhV8Pcgk41cU7MtT6uFWnGV6Grn43nDbc&_nc_ohc=NZ1BQM2kzSkAX_v1bwb&_nc_ht=scontent.fmvd4-1.fna&oh=e80a11beb69ef69d44e184f2f8edc3bf&oe=5F31AFEF");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .informacion h1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .informacion h2{
+      text-shadow: 2px 2px black;
+    }
+    .infor{
+      width: 60%;
+      height: 60%;
+      margin: auto;
+      grid-area: main;
+      color: ghostwhite;
+      margin: auto;
+      margin-top: 1%;
+    }
+    .contacto{
+      width: 80%;
+      height: 80%;
+      grid-area: main;
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+    }
+    form{
+      width: 40%;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      display: inline;
+      margin: auto;
+    }
+    .filtro{
+      width: 50%;
+    }
+ /* PANTALLA TIENDA*/
+ .tienda{
+  grid-area: main;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+flex-wrap: wrap;
+justify-content: center;
+height: auto;
 }
+.productostienda{
+width:100%;
+height: 100%;
+background-color: grey;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 
-.App-link {
-  color: #61dafb;
 }
+.tarjetas{
+  grid-area: main;
+width: 100%;
+height: auto;
+display: inline;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
+.imagenproducto{
+background-color: hotpink;
+width: 100%;
+height: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.detallesproducto{
+background-color: mediumseagreen;
+width:100%;
+height: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/*PANTALLA DETALLES DEL PRODUCTO*/
+    .vista{
+        grid-area: main;
+        background: grey;
+    }
+    .fotoydetalles{
+        width:81%;
+        height: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "foto detalles detalles"
+                             "foto botones botones";
+        background-color: peru;
+    }
+    .foto{
+        grid-area: foto;
+        background-color: yellow;
+    }
+    .detalles{
+        grid-area: detalles;
+        flex-wrap: wrap;
+        background-color: lightseagreen;
+    }
+    .botones{
+        grid-area: botones;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .comprar{ 
+        width:50%;
+        height: 15%;
+        background-color: magenta;
+        border-radius: 4px;
+        color: papayawhip;
+    }
+    /* PANTALLA CONTACTO*/
+    .contacto{
+      width: 100%;
+      height: 100%;
+      background-image:
+      radial-gradient(rgba(0, 0, 0.6, 0.7),rgba(0, 1, 1, 2)),
+      url("https://elements-video-cover-images-0.imgix.net/files/f7c573b2-81ad-40f3-aa31-85dba59160aa/inline_image_preview.jpg?auto=compress&crop=edges&fit=crop&fm=jpeg&h=800&w=1200&s=efc643797bb614ad2907d628cfd9b439");
+      background-repeat: no-repeat;
+      background-position: center;
+      color: papayawhip;
+    }
+    
+    /* ******  *****  ****  ***  **  * F O O T E R * ** *** **** ***** ****** */
+     
+footer {
+    box-sizing: border-box; 
+    grid-area: foot;
+    background: #333333;
+    color: white;
+    font-size: 15px;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+  }
+  
+  .columns{
+    height: 100%;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 3px;
+  }
+  
+  .columns dl{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: flex-start;
+    
+  }
+  .columns dd{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .newsletter button{
+      width: 120px;
+      height: 40px;
+      border-radius: 4px;
+      font-weight: 500;
+      background-color: red;
+      color: white;
+  }
+  .newsletter button a{
+    text-decoration: none;
+    color: ghostwhite;
+  }
+  .sotialpay{
+    height: 100%;
+    grid-row: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .sotialNets{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .face{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .twit{
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  .insta{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .listpay dd{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .info{
+    width: 100%;
+    height: 100%;
+    grid-row: 3;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background: repeating-linear-gradient(to right,  #f32170, #ffeb07, #2196f3, #ff00eb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  footer dl{
+    width: 100%;
+    height: 100%;
+  }
+  footer dd{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+   /* ******  *****  ****  ***  **  * R E S P O N S I V E * ** *** **** ***** ****** */
+
+   /*TABLET*/
+@media (min-width:800px) and (max-width:1050px){
+    .contenedor{
+        width: auto;
+        height: 100vh;
+        background-color: tomato;
+        display: grid;
+        grid-template-columns: 5em 1fr 5em;
+        grid-template-rows: 1fr 5fr 1fr;
+        grid-template-areas: "head head head"
+                             "main main main"
+                             "foot foot foot";                         
+        }
+        .uppernav{
+            display: none;
+        }
+        .middlenav {
+          width: 50%;
+          height: fit-content;
+          box-sizing: border-box; 
+          grid-row: 2;         
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+        }
+        .logo{
+          width: 65%;
+          height: 20%;
+          display: flex;
+          justify-content: flex-end;
+        }
+        .logo img{
+          width: 35%;
+          height: 15%;
+          padding-right: 180px;
+        }
+        .Input{
+          height: 10%;
+          width: 10%;
+        }
+        .menu{
+            font-size: 10px;
+        }
+        .columns{
+            display: none;
+        }
+        .sotialpay{
+            display: none;
+        }
+        .info{
+            display: none;
+        }
+    }
+    /*CELULAR*/
+    @media (min-width:375px) and (max-width:800px){
+        .contenedor{
+            width: 100%;
+            height: 100vh;
+            background-color: tomato;
+            display: grid;
+            grid-template-columns: 5em 1fr 5em;
+            grid-template-rows: 1fr 10fr 1fr;
+            grid-template-areas: "head head head"
+                                 "main main main"
+                                 "foot foot foot";                         
+            }
+            .uppernav{
+                display: none;
+            }
+            .middlenav{
+                display: none;
+            }
+            .menu{
+                font-size: 10px;
+                width: auto;
+                height: auto;
+            }
+            .columns{
+                display: none;
+            }
+            .sotialpay{
+                display: none;
+            }
+            .info{
+                display: none;
+            }
+            .informacion{
+                height: auto;
+                font-size: 10px;
+            }
+        }

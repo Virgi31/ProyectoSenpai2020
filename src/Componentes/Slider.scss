@@ -1,0 +1,47 @@
+.slider{
+    width: 100%;
+    height: 100%;
+    grid-area: main;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    overflow: hidden;
+    i{
+        font-size: 2vw;
+    }
+}
+.slide{
+    min-width: 100vw;
+    height: 100%;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+%btn-styles{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    color: white;
+    &:hover{
+        background: rgba(0, 0, 0, 0.356);
+        cursor: pointer;
+    }
+}
+#goLeft{
+    left: 0;
+    @extend %btn-styles;
+}
+#goRight{
+    right: 0;
+    @extend %btn-styles;
+}

@@ -1,0 +1,275 @@
+{
+    "productos": [
+        {
+            "id": "1",
+            "nombre": "Caravanas Pole",
+            "precio": 150,
+            "imagen":"./images/caravanaspole.jpg"
+        },
+        {
+            "id": "2",
+            "nombre": "Cartel Pole",
+            "precio": 250,
+            "imagen":"./images/cartelpole.jpg"
+        },
+        {
+            "id": "3",
+            "nombre": "Dry Hands",
+            "precio": 600,
+            "imagen":"./images/Art/Dryhands.jpg"
+        },
+        {
+            "id": "4",
+            "nombre": "Llavero Pole",
+            "precio": 100,
+            "imagen":"./images/Art/polellavero.jpg"
+        },
+        {
+            "id": "5",
+            "nombre": "Taza Pole",
+            "precio": 200,
+            "imagen":"./images/Art/poletaza.jpg"
+        },
+        {
+            "id": "6",
+            "nombre": "Rodilleras",
+            "precio": 300,
+            "imagen":"./images/Art/rodillera.jpg"
+        },
+        {
+            "id": "7",
+            "nombre": "Conjunto Exotic",
+            "precio": 750,
+            "imagen":"./images/Conjuntos/exotic.jpg"
+        },
+        {
+            "id": "8",
+            "nombre": "Conjunto Flamingo",
+            "precio": 750,
+            "imagen":"./images/Conjuntos/flamingo.jpg"
+        },
+        {
+            "id": "9",
+            "nombre": "Conjunto Lemon",
+            "precio": 750,
+            "imagen":"./images/Conjuntos/lemon.jpg"
+        },
+        {
+            "id": "10",
+            "nombre": "Conjunto Muestra Beige",
+            "precio": 850,
+            "imagen":"./images/Conjuntos/muestra.jpg"
+        },
+        {
+            "id": "11",
+            "nombre": "Conjunto Muestra Blanco",
+            "precio": 850,
+            "imagen":"./images/Conjuntos/muestra2.jpg"
+        },
+        {
+            "id": "12",
+            "nombre": "Conjunto Watermelon",
+            "precio": 750,
+            "imagen":"./images/Conjuntos/watermelon.jpg"
+        },
+        {
+            "id": "13",
+            "nombre": "Pleaser cuero negro suela glitter",
+            "precio": 5000,
+            "imagen":"./images/Pleasers/p1.jpg"
+        },
+        {
+            "id": "14",
+            "nombre": "Pleaser cuero blanco suela rainbow",
+            "precio": 5000,
+            "imagen":"./images/Pleasers/p2.jpg"
+        },
+        {
+            "id": "15",
+            "nombre": "Pleaser tiras cuero con suela gold glitter",
+            "precio": 5000,
+            "imagen":"./images/Pleasers/p3.jpg"
+        },
+        {
+            "id": "16",
+            "nombre": "Pleaser cuero negro suela pink glitter",
+            "precio": 5000,
+            "imagen":"./images/Pleasers/p4.jpg"
+        },
+        {
+            "id": "17",
+            "nombre": "Pleaser cuero negro con suela gold glitter",
+            "precio": 5000,
+            "imagen":"./images/Pleasers/p5.jpg"
+        },
+        {
+            "id": "18",
+            "nombre": "Pleaser spikes",
+            "precio": 5000,
+            "imagen":"./images/Pleasers/p6.jpg"
+        },
+        {
+            "id": "19",
+            "nombre": "Pleaser Pink suela Mermaidglitter",
+            "precio": 5000,
+            "imagen":"./images/Pleasers/p7.jpg"
+        },
+        {
+            "id": "20",
+            "nombre": "Pleaser cuero negro suela b&rglitter",
+            "precio": 5000,
+            "imagen":"./images/Pleasers/p8.jpg"
+        },
+        {
+            "id": "21",
+            "nombre": "Pleaser cuero negro suela stripes",
+            "precio": 5000,
+            "imagen":"./images/Pleasers/p9.jpg"
+        },
+        {
+            "id": "22",
+            "nombre": "Remera Pole Addict",
+            "precio": 400,
+            "imagen":"./images/Remeras/addict.jpg"
+        },
+        {
+            "id": "23",
+            "nombre": "Remera Pole Fitness",
+            "precio": 400,
+            "imagen":"./images/Remeras/boring.jpg"
+        },
+        {
+            "id": "24",
+            "nombre": "Remera Bruises",
+            "precio": 400,
+            "imagen":"./images/Remeras/bruises.jpg"
+        },
+        {
+            "id": "25",
+            "nombre": "Remera Eat Sleep Pole",
+            "precio": 400,
+            "imagen":"./images/Remeras/easlp.jpg"
+        },
+        {
+            "id": "26",
+            "nombre": "Remera Pole",
+            "precio": 400,
+            "imagen":"./images/Remeras/everything.jpg"
+        },
+        {
+            "id": "27",
+            "nombre": "Remera Glitter",
+            "precio": 400,
+            "imagen":"./images/Remeras/glitter.jpg"
+        },
+        {
+            "id": "28",
+            "nombre": "Remera Gravity",
+            "precio": 400,
+            "imagen":"./images/Remeras/gravity.jpg"
+        },
+        {
+            "id": "29",
+            "nombre": "Remera Hanging Around",
+            "precio": 400,
+            "imagen":"./images/Remeras/hangingaround.jpg"
+        },
+        {
+            "id": "30",
+            "nombre": "Remera Invert Pro",
+            "precio": 400,
+            "imagen":"./images/Remeras/invertpro.jpg"
+        },
+        {
+            "id": "31",
+            "nombre": "Remera Others-Me",
+            "precio": 400,
+            "imagen":"./images/Remeras/others.jpg"
+        },
+        {
+            "id": "32",
+            "nombre": "Remera Part Time Hooker",
+            "precio": 400,
+            "imagen":"./images/Remeras/parttime.jpg"
+        },
+        {
+            "id": "33",
+            "nombre": "Remera Pole Aliens",
+            "precio": 400,
+            "imagen":"./images/Remeras/polealiens.jpg"
+        },
+        {
+            "id": "34",
+            "nombre": "Remera Pole Cat",
+            "precio": 400,
+            "imagen":"./images/Remeras/polecat.jpg"
+        },
+        {
+            "id": "35",
+            "nombre": "Remera Gym Shoes",
+            "precio": 400,
+            "imagen":"./images/Remeras/shoes.jpg"
+        },
+        {
+            "id": "36",
+            "nombre": "Remera Strong",
+            "precio": 400,
+            "imagen":"./images/Remeras/strong.jpg"
+        },
+        {
+            "id": "37",
+            "nombre": "Remera Local Pole",
+            "precio": 400,
+            "imagen":"./images/Remeras/support.jpg"
+        },
+        {
+            "id": "38",
+            "nombre": "Bombachas",
+            "precio": 250,
+            "imagen":"./images/shortsytops/bombachas.jpg"
+        },
+        {
+            "id": "39",
+            "nombre": "Short Cat",
+            "precio": 450,
+            "imagen":"./images/shortsytops/catshort.jpg"
+        },
+        {
+            "id": "40",
+            "nombre": "Short Mermaid",
+            "precio": 500,
+            "imagen":"./images/shortsytops/mermaid.jpg"
+        },
+        {
+            "id": "41",
+            "nombre": "Bombacha neón",
+            "precio": 500,
+            "imagen":"./images/shortsytops/neon.jpg"
+        },
+        {
+            "id": "42",
+            "nombre": "Top Pole Beat",
+            "precio": 500,
+            "imagen":"./images/shortsytops/polebeat.jpg"
+        },
+        {
+            "id": "43",
+            "nombre": "Bombacha Red",
+            "precio": 500,
+            "imagen":"./images/shortsytops/red.jpg"
+        },
+        {
+            "id": "44",
+            "nombre": "Bombacha short",
+            "precio": 500,
+            "imagen":"./images/shortsytops/short.jpg"
+        },
+        {
+            "id": "45",
+            "nombre": "Bombacha Verde",
+            "precio": 500,
+            "imagen":"./images/shortsytops/verde.jpg"
+        }
+
+    ]
+}
